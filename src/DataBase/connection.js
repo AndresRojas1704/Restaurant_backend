@@ -2,11 +2,11 @@ const { Sequelize } = require('sequelize');
 
 var database = 'restaurantDB';
 var userName = 'postgres';
-var password = '123456789';
+var password = 'Arboledas0';
 
 const connection = new Sequelize(database, userName, password, {
     host: 'localhost',
-    dialect: 'nombre de postman'
+    dialect: 'postgres'
 });
 
 module.exports = connection;
